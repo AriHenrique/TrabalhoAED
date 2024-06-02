@@ -5,9 +5,9 @@ namespace TrabalhoAED
 {
     public abstract class Quick
     {
-        private static void Trocar(List<Dictionary<string, string>> list, int i, int j, string materia)
+        private static void Trocar(List<Dictionary<string, string>> list, int i, int j)
         {
-            (list[i][materia], list[j][materia]) = (list[j][materia], list[i][materia]);
+            (list[i], list[j]) = (list[j], list[i]);
         }
 
     
@@ -29,7 +29,7 @@ namespace TrabalhoAED
                 
                 if (i <= j)
                 {
-                    Trocar(list, i, j, materia);
+                    Trocar(list, i, j);
                     i++;
                     j--;
                 }
@@ -59,12 +59,10 @@ namespace TrabalhoAED
                 {
                     j--;
                 }
-            
-            
-
+                
                 if (i <= j)
                 {
-                    Trocar(list, i, j, materia);
+                    Trocar(list, i, j);
                     i++;
                     j--;
                 }
