@@ -1,0 +1,9 @@
+C:\Users\arihe\OneDrive - sga.pucminas.br\developer\sharp\TrabalhoAED\TrabalhoAED\bin\Debug\TrabalhoAED.exe
+C:\Users\arihe\OneDrive - sga.pucminas.br\developer\sharp\TrabalhoAED\TrabalhoAED\bin\Debug\TrabalhoAED.pdb
+C:\Users\arihe\OneDrive - sga.pucminas.br\developer\sharp\TrabalhoAED\TrabalhoAED\obj\Debug\TrabalhoAED.csproj.AssemblyReference.cache
+C:\Users\arihe\OneDrive - sga.pucminas.br\developer\sharp\TrabalhoAED\TrabalhoAED\obj\Debug\TrabalhoAED.csproj.CoreCompileInputs.cache
+C:\Users\arihe\OneDrive - sga.pucminas.br\developer\sharp\TrabalhoAED\TrabalhoAED\obj\Debug\TrabalhoAED.exe
+C:\Users\arihe\OneDrive - sga.pucminas.br\developer\sharp\TrabalhoAED\TrabalhoAED\obj\Debug\TrabalhoAED.pdb
+C:\Users\arihe\OneDrive - sga.pucminas.br\developer\sharp\TrabalhoAED\TrabalhoAED\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arihe\OneDrive - sga.pucminas.br\developer\sharp\TrabalhoAED\TrabalhoAED\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arihe\OneDrive - sga.pucminas.br\developer\sharp\TrabalhoAED\TrabalhoAED\obj\Debug\TrabalhoAED.csproj.CopyComplete
