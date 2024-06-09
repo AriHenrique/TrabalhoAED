@@ -1,0 +1,902 @@
+[
+  {
+    "nome": "Duchess",
+    "redacao": "910",
+    "matematica": "710",
+    "linguagens": "820",
+    "primeiroCurso": "5",
+    "segundoCurso": "6",
+    "media": "813,33"
+  },
+  {
+    "nome": "Caterpillar",
+    "redacao": "905",
+    "matematica": "705",
+    "linguagens": "805",
+    "primeiroCurso": "5",
+    "segundoCurso": "3",
+    "media": "805"
+  },
+  {
+    "nome": "Deadpool",
+    "redacao": "900",
+    "matematica": "700",
+    "linguagens": "800",
+    "primeiroCurso": "3",
+    "segundoCurso": "4",
+    "media": "800"
+  },
+  {
+    "nome": "King of Hearts",
+    "redacao": "720",
+    "matematica": "860",
+    "linguagens": "810",
+    "primeiroCurso": "6",
+    "segundoCurso": "4",
+    "media": "796,67"
+  },
+  {
+    "nome": "Cheshire Cat",
+    "redacao": "820",
+    "matematica": "710",
+    "linguagens": "820",
+    "primeiroCurso": "5",
+    "segundoCurso": "6",
+    "media": "783,33"
+  },
+  {
+    "nome": "Peter Parker",
+    "redacao": "700",
+    "matematica": "850",
+    "linguagens": "800",
+    "primeiroCurso": "3",
+    "segundoCurso": "4",
+    "media": "783,33"
+  },
+  {
+    "nome": "Iron Man",
+    "redacao": "800",
+    "matematica": "770",
+    "linguagens": "780",
+    "primeiroCurso": "6",
+    "segundoCurso": "2",
+    "media": "783,33"
+  },
+  {
+    "nome": "March Hare",
+    "redacao": "680",
+    "matematica": "850",
+    "linguagens": "810",
+    "primeiroCurso": "6",
+    "segundoCurso": "1",
+    "media": "780"
+  },
+  {
+    "nome": "Bill the Lizard",
+    "redacao": "805",
+    "matematica": "705",
+    "linguagens": "805",
+    "primeiroCurso": "1",
+    "segundoCurso": "2",
+    "media": "771,67"
+  },
+  {
+    "nome": "Valkyrie",
+    "redacao": "767",
+    "matematica": "757",
+    "linguagens": "777",
+    "primeiroCurso": "5",
+    "segundoCurso": "6",
+    "media": "767"
+  },
+  {
+    "nome": "Mickey Mouse",
+    "redacao": "800",
+    "matematica": "700",
+    "linguagens": "800",
+    "primeiroCurso": "1",
+    "segundoCurso": "2",
+    "media": "766,67"
+  },
+  {
+    "nome": "Bragi",
+    "redacao": "765",
+    "matematica": "755",
+    "linguagens": "775",
+    "primeiroCurso": "1",
+    "segundoCurso": "4",
+    "media": "765"
+  },
+  {
+    "nome": "Sleipnir",
+    "redacao": "761",
+    "matematica": "751",
+    "linguagens": "771",
+    "primeiroCurso": "5",
+    "segundoCurso": "2",
+    "media": "761"
+  },
+  {
+    "nome": "Doctor Strange",
+    "redacao": "750",
+    "matematica": "760",
+    "linguagens": "770",
+    "primeiroCurso": "2",
+    "segundoCurso": "1",
+    "media": "760"
+  },
+  {
+    "nome": "Gamora",
+    "redacao": "760",
+    "matematica": "750",
+    "linguagens": "770",
+    "primeiroCurso": "5",
+    "segundoCurso": "3",
+    "media": "760"
+  },
+  {
+    "nome": "Nebula",
+    "redacao": "760",
+    "matematica": "750",
+    "linguagens": "770",
+    "primeiroCurso": "4",
+    "segundoCurso": "1",
+    "media": "760"
+  },
+  {
+    "nome": "Aleta Ogord",
+    "redacao": "760",
+    "matematica": "750",
+    "linguagens": "770",
+    "primeiroCurso": "3",
+    "segundoCurso": "1",
+    "media": "760"
+  },
+  {
+    "nome": "Gorgon",
+    "redacao": "760",
+    "matematica": "750",
+    "linguagens": "770",
+    "primeiroCurso": "2",
+    "segundoCurso": "4",
+    "media": "760"
+  },
+  {
+    "nome": "Nebula",
+    "redacao": "760",
+    "matematica": "750",
+    "linguagens": "770",
+    "primeiroCurso": "1",
+    "segundoCurso": "4",
+    "media": "760"
+  },
+  {
+    "nome": "Ego",
+    "redacao": "760",
+    "matematica": "750",
+    "linguagens": "770",
+    "primeiroCurso": "6",
+    "segundoCurso": "4",
+    "media": "760"
+  },
+  {
+    "nome": "Volstagg",
+    "redacao": "760",
+    "matematica": "750",
+    "linguagens": "770",
+    "primeiroCurso": "5",
+    "segundoCurso": "6",
+    "media": "760"
+  },
+  {
+    "nome": "Odin",
+    "redacao": "760",
+    "matematica": "750",
+    "linguagens": "770",
+    "primeiroCurso": "4",
+    "segundoCurso": "1",
+    "media": "760"
+  },
+  {
+    "nome": "Tyr",
+    "redacao": "760",
+    "matematica": "750",
+    "linguagens": "770",
+    "primeiroCurso": "3",
+    "segundoCurso": "1",
+    "media": "760"
+  },
+  {
+    "nome": "Scarlet Witch",
+    "redacao": "760",
+    "matematica": "740",
+    "linguagens": "770",
+    "primeiroCurso": "6",
+    "segundoCurso": "4",
+    "media": "756,67"
+  },
+  {
+    "nome": "Mad Hatter",
+    "redacao": "710",
+    "matematica": "720",
+    "linguagens": "830",
+    "primeiroCurso": "2",
+    "segundoCurso": "6",
+    "media": "753,33"
+  },
+  {
+    "nome": "Spider-Man",
+    "redacao": "780",
+    "matematica": "720",
+    "linguagens": "760",
+    "primeiroCurso": "1",
+    "segundoCurso": "4",
+    "media": "753,33"
+  },
+  {
+    "nome": "Modi",
+    "redacao": "752",
+    "matematica": "742",
+    "linguagens": "762",
+    "primeiroCurso": "4",
+    "segundoCurso": "5",
+    "media": "752"
+  },
+  {
+    "nome": "Idunn",
+    "redacao": "751",
+    "matematica": "741",
+    "linguagens": "761",
+    "primeiroCurso": "6",
+    "segundoCurso": "3",
+    "media": "751"
+  },
+  {
+    "nome": "Star-Lord",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "4",
+    "segundoCurso": "2",
+    "media": "750"
+  },
+  {
+    "nome": "Mantis",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "3",
+    "segundoCurso": "2",
+    "media": "750"
+  },
+  {
+    "nome": "Stakar Ogord",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "2",
+    "segundoCurso": "3",
+    "media": "750"
+  },
+  {
+    "nome": "Crystal",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "1",
+    "segundoCurso": "3",
+    "media": "750"
+  },
+  {
+    "nome": "Korath",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "6",
+    "segundoCurso": "3",
+    "media": "750"
+  },
+  {
+    "nome": "Surtur",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "5",
+    "segundoCurso": "2",
+    "media": "750"
+  },
+  {
+    "nome": "Sif",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "4",
+    "segundoCurso": "5",
+    "media": "750"
+  },
+  {
+    "nome": "Laufey",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "3",
+    "segundoCurso": "6",
+    "media": "750"
+  },
+  {
+    "nome": "Balder",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "2",
+    "segundoCurso": "6",
+    "media": "750"
+  },
+  {
+    "nome": "Fenrir",
+    "redacao": "750",
+    "matematica": "740",
+    "linguagens": "760",
+    "primeiroCurso": "4",
+    "segundoCurso": "1",
+    "media": "750"
+  },
+  {
+    "nome": "Gryphon",
+    "redacao": "720",
+    "matematica": "720",
+    "linguagens": "800",
+    "primeiroCurso": "1",
+    "segundoCurso": "2",
+    "media": "746,67"
+  },
+  {
+    "nome": "Vision",
+    "redacao": "750",
+    "matematica": "760",
+    "linguagens": "730",
+    "primeiroCurso": "1",
+    "segundoCurso": "5",
+    "media": "746,67"
+  },
+  {
+    "nome": "Vidar",
+    "redacao": "736",
+    "matematica": "746",
+    "linguagens": "756",
+    "primeiroCurso": "2",
+    "segundoCurso": "4",
+    "media": "746"
+  },
+  {
+    "nome": "Freyja",
+    "redacao": "745",
+    "matematica": "735",
+    "linguagens": "755",
+    "primeiroCurso": "4",
+    "segundoCurso": "2",
+    "media": "745"
+  },
+  {
+    "nome": "Heimdall",
+    "redacao": "743",
+    "matematica": "733",
+    "linguagens": "753",
+    "primeiroCurso": "2",
+    "segundoCurso": "5",
+    "media": "743"
+  },
+  {
+    "nome": "Huginn",
+    "redacao": "742",
+    "matematica": "732",
+    "linguagens": "752",
+    "primeiroCurso": "6",
+    "segundoCurso": "3",
+    "media": "742"
+  },
+  {
+    "nome": "Black Panther",
+    "redacao": "740",
+    "matematica": "730",
+    "linguagens": "750",
+    "primeiroCurso": "5",
+    "segundoCurso": "2",
+    "media": "740"
+  },
+  {
+    "nome": "Thanos",
+    "redacao": "740",
+    "matematica": "730",
+    "linguagens": "750",
+    "primeiroCurso": "5",
+    "segundoCurso": "4",
+    "media": "740"
+  },
+  {
+    "nome": "Triton",
+    "redacao": "740",
+    "matematica": "730",
+    "linguagens": "750",
+    "primeiroCurso": "3",
+    "segundoCurso": "5",
+    "media": "740"
+  },
+  {
+    "nome": "Ultron",
+    "redacao": "740",
+    "matematica": "730",
+    "linguagens": "750",
+    "primeiroCurso": "2",
+    "segundoCurso": "5",
+    "media": "740"
+  },
+  {
+    "nome": "Valkyrie",
+    "redacao": "740",
+    "matematica": "730",
+    "linguagens": "750",
+    "primeiroCurso": "1",
+    "segundoCurso": "5",
+    "media": "740"
+  },
+  {
+    "nome": "Fandral",
+    "redacao": "740",
+    "matematica": "730",
+    "linguagens": "750",
+    "primeiroCurso": "6",
+    "segundoCurso": "2",
+    "media": "740"
+  },
+  {
+    "nome": "Frigga",
+    "redacao": "740",
+    "matematica": "730",
+    "linguagens": "750",
+    "primeiroCurso": "5",
+    "segundoCurso": "3",
+    "media": "740"
+  },
+  {
+    "nome": "Captain America",
+    "redacao": "760",
+    "matematica": "710",
+    "linguagens": "740",
+    "primeiroCurso": "1",
+    "segundoCurso": "3",
+    "media": "736,67"
+  },
+  {
+    "nome": "Hulk",
+    "redacao": "720",
+    "matematica": "750",
+    "linguagens": "740",
+    "primeiroCurso": "3",
+    "segundoCurso": "6",
+    "media": "736,67"
+  },
+  {
+    "nome": "Njord",
+    "redacao": "735",
+    "matematica": "725",
+    "linguagens": "745",
+    "primeiroCurso": "6",
+    "segundoCurso": "2",
+    "media": "735"
+  },
+  {
+    "nome": "Pato Donald",
+    "redacao": "700",
+    "matematica": "700",
+    "linguagens": "800",
+    "primeiroCurso": "1",
+    "segundoCurso": "2",
+    "media": "733,33"
+  },
+  {
+    "nome": "Thor",
+    "redacao": "790",
+    "matematica": "680",
+    "linguagens": "720",
+    "primeiroCurso": "2",
+    "segundoCurso": "5",
+    "media": "730"
+  },
+  {
+    "nome": "Ant-Man",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "3",
+    "segundoCurso": "5",
+    "media": "730"
+  },
+  {
+    "nome": "Winter Soldier",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "3",
+    "segundoCurso": "1",
+    "media": "730"
+  },
+  {
+    "nome": "Drax",
+    "redacao": "740",
+    "matematica": "730",
+    "linguagens": "720",
+    "primeiroCurso": "6",
+    "segundoCurso": "4",
+    "media": "730"
+  },
+  {
+    "nome": "Rocket Raccoon",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "2",
+    "segundoCurso": "5",
+    "media": "730"
+  },
+  {
+    "nome": "Kraglin",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "1",
+    "segundoCurso": "5",
+    "media": "730"
+  },
+  {
+    "nome": "Karnak",
+    "redacao": "740",
+    "matematica": "730",
+    "linguagens": "720",
+    "primeiroCurso": "4",
+    "segundoCurso": "6",
+    "media": "730"
+  },
+  {
+    "nome": "Black Bolt",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "6",
+    "segundoCurso": "1",
+    "media": "730"
+  },
+  {
+    "nome": "Ronan",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "5",
+    "segundoCurso": "1",
+    "media": "730"
+  },
+  {
+    "nome": "Hela",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "4",
+    "segundoCurso": "1",
+    "media": "730"
+  },
+  {
+    "nome": "Lorelei",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "3",
+    "segundoCurso": "1",
+    "media": "730"
+  },
+  {
+    "nome": "Malekith",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "2",
+    "segundoCurso": "4",
+    "media": "730"
+  },
+  {
+    "nome": "Thor",
+    "redacao": "730",
+    "matematica": "720",
+    "linguagens": "740",
+    "primeiroCurso": "1",
+    "segundoCurso": "5",
+    "media": "730"
+  },
+  {
+    "nome": "Magni",
+    "redacao": "729",
+    "matematica": "719",
+    "linguagens": "739",
+    "primeiroCurso": "3",
+    "segundoCurso": "1",
+    "media": "729"
+  },
+  {
+    "nome": "Loki",
+    "redacao": "650",
+    "matematica": "780",
+    "linguagens": "750",
+    "primeiroCurso": "5",
+    "segundoCurso": "1",
+    "media": "726,67"
+  },
+  {
+    "nome": "Muninn",
+    "redacao": "723",
+    "matematica": "713",
+    "linguagens": "733",
+    "primeiroCurso": "1",
+    "segundoCurso": "5",
+    "media": "723"
+  },
+  {
+    "nome": "Sigyn",
+    "redacao": "722",
+    "matematica": "712",
+    "linguagens": "732",
+    "primeiroCurso": "5",
+    "segundoCurso": "1",
+    "media": "722"
+  },
+  {
+    "nome": "Skadi",
+    "redacao": "721",
+    "matematica": "711",
+    "linguagens": "731",
+    "primeiroCurso": "3",
+    "segundoCurso": "6",
+    "media": "721"
+  },
+  {
+    "nome": "Alice Wonderland",
+    "redacao": "620",
+    "matematica": "730",
+    "linguagens": "810",
+    "primeiroCurso": "1",
+    "segundoCurso": "5",
+    "media": "720"
+  },
+  {
+    "nome": "Groot",
+    "redacao": "720",
+    "matematica": "710",
+    "linguagens": "730",
+    "primeiroCurso": "1",
+    "segundoCurso": "6",
+    "media": "720"
+  },
+  {
+    "nome": "Yondu",
+    "redacao": "720",
+    "matematica": "710",
+    "linguagens": "730",
+    "primeiroCurso": "6",
+    "segundoCurso": "3",
+    "media": "720"
+  },
+  {
+    "nome": "Medusa",
+    "redacao": "720",
+    "matematica": "710",
+    "linguagens": "730",
+    "primeiroCurso": "5",
+    "segundoCurso": "2",
+    "media": "720"
+  },
+  {
+    "nome": "Maximus",
+    "redacao": "720",
+    "matematica": "710",
+    "linguagens": "730",
+    "primeiroCurso": "4",
+    "segundoCurso": "2",
+    "media": "720"
+  },
+  {
+    "nome": "Vision",
+    "redacao": "720",
+    "matematica": "710",
+    "linguagens": "730",
+    "primeiroCurso": "3",
+    "segundoCurso": "6",
+    "media": "720"
+  },
+  {
+    "nome": "Heimdall",
+    "redacao": "720",
+    "matematica": "710",
+    "linguagens": "730",
+    "primeiroCurso": "2",
+    "segundoCurso": "3",
+    "media": "720"
+  },
+  {
+    "nome": "Hogun",
+    "redacao": "720",
+    "matematica": "710",
+    "linguagens": "730",
+    "primeiroCurso": "1",
+    "segundoCurso": "3",
+    "media": "720"
+  },
+  {
+    "nome": "Loki",
+    "redacao": "720",
+    "matematica": "710",
+    "linguagens": "730",
+    "primeiroCurso": "6",
+    "segundoCurso": "4",
+    "media": "720"
+  },
+  {
+    "nome": "Black Widow",
+    "redacao": "730",
+    "matematica": "700",
+    "linguagens": "710",
+    "primeiroCurso": "2",
+    "segundoCurso": "4",
+    "media": "713,33"
+  },
+  {
+    "nome": "Mock Turtle",
+    "redacao": "600",
+    "matematica": "730",
+    "linguagens": "800",
+    "primeiroCurso": "1",
+    "segundoCurso": "2",
+    "media": "710"
+  },
+  {
+    "nome": "Falcon",
+    "redacao": "720",
+    "matematica": "710",
+    "linguagens": "700",
+    "primeiroCurso": "2",
+    "segundoCurso": "6",
+    "media": "710"
+  },
+  {
+    "nome": "Wasp",
+    "redacao": "710",
+    "matematica": "700",
+    "linguagens": "710",
+    "primeiroCurso": "4",
+    "segundoCurso": "3",
+    "media": "706,67"
+  },
+  {
+    "nome": "Tweedledum",
+    "redacao": "750",
+    "matematica": "720",
+    "linguagens": "630",
+    "primeiroCurso": "2",
+    "segundoCurso": "3",
+    "media": "700"
+  },
+  {
+    "nome": "Bob Esponja",
+    "redacao": "600",
+    "matematica": "700",
+    "linguagens": "800",
+    "primeiroCurso": "1",
+    "segundoCurso": "2",
+    "media": "700"
+  },
+  {
+    "nome": "Tweedledee",
+    "redacao": "730",
+    "matematica": "740",
+    "linguagens": "620",
+    "primeiroCurso": "2",
+    "segundoCurso": "3",
+    "media": "696,67"
+  },
+  {
+    "nome": "Hawkeye",
+    "redacao": "710",
+    "matematica": "690",
+    "linguagens": "680",
+    "primeiroCurso": "4",
+    "segundoCurso": "1",
+    "media": "693,33"
+  },
+  {
+    "nome": "Tio Patinhas",
+    "redacao": "700",
+    "matematica": "700",
+    "linguagens": "600",
+    "primeiroCurso": "4",
+    "segundoCurso": "2",
+    "media": "666,67"
+  },
+  {
+    "nome": "Fish Footman",
+    "redacao": "690",
+    "matematica": "690",
+    "linguagens": "600",
+    "primeiroCurso": "3",
+    "segundoCurso": "2",
+    "media": "660"
+  },
+  {
+    "nome": "Frog Footman",
+    "redacao": "680",
+    "matematica": "680",
+    "linguagens": "610",
+    "primeiroCurso": "3",
+    "segundoCurso": "4",
+    "media": "656,67"
+  },
+  {
+    "nome": "Queen of Hearts",
+    "redacao": "690",
+    "matematica": "740",
+    "linguagens": "510",
+    "primeiroCurso": "6",
+    "segundoCurso": "1",
+    "media": "646,67"
+  },
+  {
+    "nome": "Dormouse",
+    "redacao": "705",
+    "matematica": "705",
+    "linguagens": "505",
+    "primeiroCurso": "3",
+    "segundoCurso": "2",
+    "media": "638,33"
+  },
+  {
+    "nome": "Peppa Pig",
+    "redacao": "700",
+    "matematica": "700",
+    "linguagens": "500",
+    "primeiroCurso": "3",
+    "segundoCurso": "2",
+    "media": "633,33"
+  },
+  {
+    "nome": "White Rabbit",
+    "redacao": "610",
+    "matematica": "610",
+    "linguagens": "530",
+    "primeiroCurso": "4",
+    "segundoCurso": "5",
+    "media": "583,33"
+  },
+  {
+    "nome": "Humpty Dumpty",
+    "redacao": "640",
+    "matematica": "600",
+    "linguagens": "510",
+    "primeiroCurso": "4",
+    "segundoCurso": "5",
+    "media": "583,33"
+  },
+  {
+    "nome": "Dinah",
+    "redacao": "605",
+    "matematica": "605",
+    "linguagens": "505",
+    "primeiroCurso": "4",
+    "segundoCurso": "3",
+    "media": "571,67"
+  },
+  {
+    "nome": "Super Mario Bros",
+    "redacao": "600",
+    "matematica": "600",
+    "linguagens": "500",
+    "primeiroCurso": "4",
+    "segundoCurso": "3",
+    "media": "566,67"
+  }
+]

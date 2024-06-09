@@ -43,10 +43,12 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Candidato.cs" />
+        <Compile Include="Curso.cs" />
         <Compile Include="EntradaDados.cs" />
+        <Compile Include="Merge.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
-        <Compile Include="Quick.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="entrada.txt" />

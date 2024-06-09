@@ -1,10 +1,10 @@
 ﻿6;100
-1;Matemática;10
-2;Física;15
-3;Química;10
-4;Estatística;20
-5;Biologia;10
-6;Engenharia;35
+1;Matemática;5
+2;Física;8
+3;Química;5
+4;Estatística;7
+5;Biologia;4
+6;Engenharia;10
 Alice Wonderland;620;730;810;1;5
 Mad Hatter;710;720;830;2;6
 Cheshire Cat;820;710;820;5;6
