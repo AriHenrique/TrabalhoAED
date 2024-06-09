@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TrabalhoAED;
 
 public class Curso
 {
@@ -9,22 +10,20 @@ public class Curso
     
     public Candidato[] Aprovados { get; set; }
     
-    public Candidato[] ListaEspera { get; set; }
+    public Fila ListaEspera { get; set; }
 
     public List<Candidato> Candidatos;
     
     public int VagasPreenchidas { get; set; }
     
-    public int VagasEsperaPreenchidas { get; set; }
     public Curso(string nome, int vagas)
     {
         Nome = nome;
         Vagas = vagas;
         Aprovados = new Candidato[vagas];
-        ListaEspera = new Candidato[10];
+        ListaEspera = new Fila(10);
         Candidatos = new List<Candidato>();
         NotaCorte = 0;
         VagasPreenchidas = 0;
-        VagasEsperaPreenchidas = 0;
     }
 }

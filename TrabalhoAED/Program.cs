@@ -15,11 +15,9 @@ namespace TrabalhoAED
                 cursos[media[i].PrimeiroCurso].Candidatos.Add(media[i]);
                 int vagas1 = cursos[media[i].PrimeiroCurso].Vagas;
                 int vagasPreenchidas1 = cursos[media[i].PrimeiroCurso].VagasPreenchidas;
-                int vagasEsperaPreenchidas1 = cursos[media[i].PrimeiroCurso].VagasEsperaPreenchidas;
                 
                 int vagas2 = cursos[media[i].SegundoCurso].Vagas;
                 int vagasPreenchidas2 = cursos[media[i].SegundoCurso].VagasPreenchidas;
-                int vagasEsperaPreenchidas2 = cursos[media[i].SegundoCurso].VagasEsperaPreenchidas;
                 
                 if (vagasPreenchidas1 < vagas1)
                 {
@@ -38,27 +36,14 @@ namespace TrabalhoAED
                         cursos[media[i].SegundoCurso].NotaCorte = media[i].Media;
                     }
                     cursos[media[i].SegundoCurso].VagasPreenchidas++;
-                    
-                    if (vagasEsperaPreenchidas1 < 10)
-                    {
-                        cursos[media[i].PrimeiroCurso].ListaEspera[vagasEsperaPreenchidas1] = media[i];
-                        cursos[media[i].PrimeiroCurso].VagasEsperaPreenchidas++;
-                    }
+                    cursos[media[i].PrimeiroCurso].ListaEspera.Inserir(media[i]);
                     
                 }
                 else
                 {
-                    if (vagasEsperaPreenchidas1 < 10)
-                    {
-                        cursos[media[i].PrimeiroCurso].ListaEspera[vagasEsperaPreenchidas1] = media[i];
-                        cursos[media[i].PrimeiroCurso].VagasEsperaPreenchidas++;
-                    }
+                    cursos[media[i].PrimeiroCurso].ListaEspera.Inserir(media[i]);
+                    cursos[media[i].SegundoCurso].ListaEspera.Inserir(media[i]);
                     
-                    if (vagasEsperaPreenchidas2 < 10)
-                    {
-                        cursos[media[i].SegundoCurso].ListaEspera[vagasEsperaPreenchidas2] = media[i];
-                        cursos[media[i].SegundoCurso].VagasEsperaPreenchidas++;
-                    }
                 }
             }
 
@@ -88,7 +73,7 @@ namespace TrabalhoAED
             {
                 foreach (var cursoEntry in dados)
                 {
-                    int codigoCurso = cursoEntry.Key;
+                    
                     Curso curso = cursoEntry.Value;
 
                     writer.WriteLine($"{curso.Nome} {curso.NotaCorte:F2}");
@@ -101,9 +86,11 @@ namespace TrabalhoAED
 
                     writer.WriteLine("Fila de Espera");
 
-                    foreach (var candidato in curso.ListaEspera)
-                    {
-                        writer.WriteLine($"{candidato.Nome} {candidato.Media:F2} {candidato.NotaRedacao} {candidato.NotaMatematica} {candidato.NotaLinguagens}");
+                    int i = curso.ListaEspera.primeiro;
+                    
+                    while (i != curso.ListaEspera.ultimo) {
+                        writer.WriteLine($"{curso.ListaEspera.array[i].Nome} {curso.ListaEspera.array[i].Media:F2} {curso.ListaEspera.array[i].NotaRedacao} {curso.ListaEspera.array[i].NotaMatematica} {curso.ListaEspera.array[i].NotaLinguagens}");
+                        i = (i + 1) % curso.ListaEspera.array.Length;
                     }
 
                     writer.WriteLine();
