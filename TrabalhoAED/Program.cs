@@ -10,6 +10,7 @@ namespace TrabalhoAED
 
         public static Dictionary<int, Curso> Selecionados(List<Candidato> media, Dictionary<int, Curso> cursos)
         {
+            
             for (int i = 0; i < media.Count; i++)
             {
                 cursos[media[i].PrimeiroCurso].Candidatos.Add(media[i]);
@@ -37,7 +38,7 @@ namespace TrabalhoAED
                     }
                     cursos[media[i].SegundoCurso].VagasPreenchidas++;
                     cursos[media[i].PrimeiroCurso].ListaEspera.Inserir(media[i]);
-                    
+
                 }
                 else
                 {
@@ -59,6 +60,7 @@ namespace TrabalhoAED
             Console.WriteLine($"Dados salvos em {nomeArquivo}");
         }
         
+        
         private static void SalvarCursosJson(Dictionary<int, Curso> dados, string nomeArquivo)
         {
             string jsonString = JsonConvert.SerializeObject(dados, Formatting.Indented);
@@ -67,6 +69,7 @@ namespace TrabalhoAED
             Console.WriteLine($"Dados salvos em {nomeArquivo}");
         }
 
+        
         public static void SalvarTxt(Dictionary<int, Curso> dados, string caminhoArquivo)
         {
             using (StreamWriter writer = new StreamWriter(caminhoArquivo))
@@ -76,27 +79,35 @@ namespace TrabalhoAED
                     
                     Curso curso = cursoEntry.Value;
 
-                    writer.WriteLine($"{curso.Nome} {curso.NotaCorte:F2}");
+                    writer.WriteLine($"{curso.Nome} {curso.NotaCorte}");
                     writer.WriteLine("Selecionados");
 
-                    foreach (var candidato in curso.Aprovados)
+                    if (curso.Aprovados != null)
                     {
-                        writer.WriteLine($"{candidato.Nome} {candidato.Media:F2} {candidato.NotaRedacao} {candidato.NotaMatematica} {candidato.NotaLinguagens}");
+                        foreach (var candidato in curso.Aprovados)
+                        {
+                            writer.WriteLine($"{candidato.Nome} {candidato.Media:F2} {candidato.NotaRedacao} {candidato.NotaMatematica} {candidato.NotaLinguagens}");
+                        }
                     }
 
                     writer.WriteLine("Fila de Espera");
 
-                    int i = curso.ListaEspera.primeiro;
-                    
-                    while (i != curso.ListaEspera.ultimo) {
-                        writer.WriteLine($"{curso.ListaEspera.array[i].Nome} {curso.ListaEspera.array[i].Media:F2} {curso.ListaEspera.array[i].NotaRedacao} {curso.ListaEspera.array[i].NotaMatematica} {curso.ListaEspera.array[i].NotaLinguagens}");
-                        i = (i + 1) % curso.ListaEspera.array.Length;
+                    if (curso.ListaEspera != null)
+                    {
+                        foreach (var candidato in curso.ListaEspera.candidatos)
+                        {
+                            if (candidato != null)
+                            {
+                                writer.WriteLine($"{candidato.Nome} {candidato.Media:F2} {candidato.NotaRedacao} {candidato.NotaMatematica} {candidato.NotaLinguagens}");
+                            }
+                        }
                     }
 
                     writer.WriteLine();
                 }
             }
         }
+        
         
         public static void Main(string[] args)
         {

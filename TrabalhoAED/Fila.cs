@@ -1,20 +1,20 @@
 ﻿public class Fila
 {
-    public Candidato[] array;
+    public Candidato[] candidatos;
     public int primeiro, ultimo;
 
     public Fila(int tamanho)
     {
-        array = new Candidato[tamanho + 1];
+        candidatos = new Candidato[tamanho + 1];
         primeiro = ultimo = 0;
     }
 
     public void Inserir(Candidato x)
     {
-        if (((ultimo + 1) % array.Length) == primeiro)
+        if (((ultimo + 1) % candidatos.Length) == primeiro)
             return;
 
-        array[ultimo] = x;
-        ultimo = (ultimo + 1) % array.Length;
+        candidatos[ultimo] = x;
+        ultimo = (ultimo + 1) % candidatos.Length;
     }
 }

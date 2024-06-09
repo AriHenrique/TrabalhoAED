@@ -25,5 +25,6 @@ public class Curso
         Candidatos = new List<Candidato>();
         NotaCorte = 0;
         VagasPreenchidas = 0;
+        
     }
 }
