@@ -10,40 +10,31 @@ class EntradaDados
         string[] content = File.ReadAllText(entrada).Replace("\r", "").Split('\n');
         Dictionary<int, Curso> cursos = new Dictionary<int, Curso>();
         List<Candidato> candidatos = new List<Candidato>();
-        int totalCursos = 0;
-        int totalCandidatos = 0;
+        int totalCursos = Convert.ToInt32((content[0]).Split(';')[0]);
+        int totalCandidatos = Convert.ToInt32(content[0].Split(';')[1]);
         int count = 1;
-        foreach (string str in content)
+        
+        for (int i = 1; i < totalCursos+1; i++)
         {
-            string[] linha = str.Split(';');
-            
-            if (linha.Length == 2)
+            int codigo = Convert.ToInt32(content[i].Split(';')[0]);
+            string nomeCurso =  content[i].Split(';')[1];
+            int vagas = Convert.ToInt32(content[i].Split(';')[2]);
+            if (!cursos.ContainsKey(codigo))
             {
-                totalCursos = Convert.ToInt32(linha[0]);
-                totalCandidatos = Convert.ToInt32(linha[1]);
-            }else if (linha.Length == 3)
-            {
-                int codigo = Convert.ToInt32(linha[0]);
-                string nomeCurso = linha[1];
-                int vagas = Convert.ToInt32(linha[2]);
-                if (!cursos.ContainsKey(codigo))
-                {
-                    cursos.Add(codigo, new Curso(nomeCurso, vagas));
-                }
-            }else if (linha.Length > 3)
-            {
-                
-                Candidato candidato = new Candidato(
-                    linha[0], 
-                    Convert.ToDouble(linha[1]),
-                    Convert.ToDouble(linha[2]),
-                    Convert.ToDouble(linha[3]),
-                    Convert.ToInt32(linha[4]),
-                    Convert.ToInt32(linha[5])
-                );
-                candidatos.Add(candidato);
+                cursos.Add(codigo, new Curso(nomeCurso, vagas));
             }
-            
+        }
+        for (int i = totalCursos+1; i < totalCandidatos+totalCursos+1; i++)
+        {
+            Candidato candidato = new Candidato(
+                content[i].Split(';')[0],
+                Convert.ToDouble(content[i].Split(';')[1]),
+                Convert.ToDouble(content[i].Split(';')[2]),
+                Convert.ToDouble(content[i].Split(';')[3]),
+                Convert.ToInt32(content[i].Split(';')[4]),
+                Convert.ToInt32(content[i].Split(';')[5])
+            );
+            candidatos.Add(candidato);
         }
         return (cursos, candidatos);
     }

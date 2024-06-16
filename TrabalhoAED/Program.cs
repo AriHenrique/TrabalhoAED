@@ -23,19 +23,13 @@ namespace TrabalhoAED
                 if (vagasPreenchidas1 < vagas1)
                 {
                     cursos[media[i].PrimeiroCurso].Aprovados[vagasPreenchidas1] = media[i];
-                    if (vagasPreenchidas1 + 1 == vagas1)
-                    {
-                        cursos[media[i].PrimeiroCurso].NotaCorte = media[i].Media;
-                    }
+                    cursos[media[i].PrimeiroCurso].NotaCorte = media[i].Media;
                     cursos[media[i].PrimeiroCurso].VagasPreenchidas++;
                     
                 }else if(vagasPreenchidas2 < vagas2)
                 {
                     cursos[media[i].SegundoCurso].Aprovados[vagasPreenchidas2] = media[i];
-                    if (vagasPreenchidas2 + 1 == vagas2)
-                    {
-                        cursos[media[i].SegundoCurso].NotaCorte = media[i].Media;
-                    }
+                    cursos[media[i].SegundoCurso].NotaCorte = media[i].Media;
                     cursos[media[i].SegundoCurso].VagasPreenchidas++;
                     cursos[media[i].PrimeiroCurso].ListaEspera.Inserir(media[i]);
 
