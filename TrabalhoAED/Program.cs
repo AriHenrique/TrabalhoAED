@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json;
 
 namespace TrabalhoAED
 {
@@ -45,24 +43,6 @@ namespace TrabalhoAED
             return cursos;
         }
         
-        
-        private static void SalvarCandidatosJson(List<Candidato> dados, string nomeArquivo)
-        {
-            string jsonString = JsonConvert.SerializeObject(dados, Formatting.Indented);
-            File.WriteAllText(nomeArquivo, jsonString);
-
-            Console.WriteLine($"Dados salvos em {nomeArquivo}");
-        }
-        
-        
-        private static void SalvarCursosJson(Dictionary<int, Curso> dados, string nomeArquivo)
-        {
-            string jsonString = JsonConvert.SerializeObject(dados, Formatting.Indented);
-            File.WriteAllText(nomeArquivo, jsonString);
-
-            Console.WriteLine($"Dados salvos em {nomeArquivo}");
-        }
-
         
         public static void SalvarTxt(Dictionary<int, Curso> dados, string caminhoArquivo)
         {
@@ -109,10 +89,6 @@ namespace TrabalhoAED
             List<Candidato> media = Merge.Execute(candidatos);
             Dictionary<int, Curso> selecao = Selecionados(media, cursos);
             SalvarTxt(selecao,"../../saida.txt");
-            
-            SalvarCandidatosJson(candidatos, "../../candidatos.json");
-            SalvarCursosJson(selecao, "../../cursos.json");
-            
         }
         
         
